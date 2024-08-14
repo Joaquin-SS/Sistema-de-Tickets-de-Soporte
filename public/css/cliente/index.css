@@ -1,0 +1,11 @@
+body{
+    background-image: url(/images/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-custom {
+    background-image: url('/images/fondoCard.jpg'); /* Poner de fondo una imagen */
+    background-size: cover; /* Cubre por completo el area de la tarjeta */
+    background-position: center; /* Centra la imagen de fondo */
+}

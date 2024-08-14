@@ -1,0 +1,50 @@
+.estado {
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
+.en-proceso {
+    background-color: gray;
+  }
+  
+.asignado {
+    background-color: blue;
+  }
+  
+.completado {
+    background-color: green;
+  }
+
+.nosolucionado{
+    background-color: orange;
+}
+
+.cancelado {
+    background-color: red;
+}
+
+.cardHeaderForm {
+  background-color: #343a40;
+  color: azure;
+}
+
+.modal-footer {
+  display: flex; /* Asegura que los elementos del footer se alineen horizontalmente */
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
+}
+
+.custom-input {
+  background-color: #343a40 !important;
+  color: white !important;
+  flex-grow: 1; /* Permite que el input crezca y llene el espacio */
+  border: none; 
+}
+
+.custom-input::placeholder {
+  color: #999999 !important;
+  opacity: 1; 
+}
